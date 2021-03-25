@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>BLog</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        .oppacity{
+            opacity: 0.8;
+        }
+        .jumbotron{
+            padding-top: 5rem;
+            background-image: url(img/bg.jpg);
+            background-size:cover;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top oppacity">
+        <div class="container">
+
+            <a href=""class="navbar-brand"><i class="fas fa-blog me-2"></i>Blog Template</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNav"> 
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <div class=" collapse navbar-collapse" id="collapseNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#register">Register</a></li>
+                    <li class="nav-item"><a href="" class="nav-link" data-bs-toggle="modal" data-bs-target="#login">Login</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="input-group mb-4">
+                <i class="fas fa-user my-auto mx-3"></i>
+                <input type="text" class="form-control" placeholder="Username">
+            </div>
+            <div class="input-group">
+                <i class="fas fa-key my-auto mx-3"></i>
+                <input type="password" class="form-control" placeholder="Password">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="register" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="col">
+                <div class="input-group mb-3">
+                    <i class="fas fa-user my-auto mx-3"></i>
+                    <input type="text" class="form-control" placeholder="Username">
+                </div>
+                <div class="input-group mb-3">
+                    <i class="fas fa-key my-auto mx-3"></i>
+                    <input type="Password" class="form-control" placeholder="Password">
+                </div>
+                <div class="input-group mb-3">
+                    <i class="fas fa-envelope my-auto mx-3"></i>
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <i class="fas fa-transgender ms-3" style="font-size:1.2rem;"></i>
+                <div class="form-check  form-check-inline ms-3">
+                        <input type="radio" class="form-check-input" id="rd1" name="gender">
+                        <label for="rd1" class="form-check-label">Male</label>
+                </div>
+                <div class="form-check  form-check-inline">
+                    <input type="radio" name="gender" id="rd2" class="form-check-input">
+                    <label for="rd2" class="form-check-label">Female</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" name="gender" id="rd3" class="form-check-input">
+                    <label for="rd3" class="form-check-label">Other</label>
+                </div>
+  
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Register</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div class="jumbotron">
+        <div>
+
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 pb-5 m-3">
+                    <div>
+                        <h1 class="text-dark display-1 fst-italic">Title of a longer featured blog post</h1>
+                    </div>
+                    <div class="w-75">
+                        <p class="text-dark lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam non illum sequi velit vero excepturi facere tenetur perspiciatis necessitatibus recusandae.</p>
+                    </div>
+                    
+                    <a href="" class="text-dark fs-5 fw-bold">Continue Reading...</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <section    >
+        <div class="container">
+            <div class="row mb-4 mt-4">
+                <div class="col-lg-8">
+                    <div class="card mt-4">
+                        <img src="img/slider-1.jpeg" alt="" class="card-img-top img-thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Post Title</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti explicabo asperiores quae provident veritatis molestias laborum incidunt nemo laboriosam numquam.
+                            </p>
+                            <button class="btn btn-primary">Read More</button>
+                    
+                        </div>
+                        <div class="card-footer text-muted">
+                            Posted on January 1, 2019
+                        </div>
+                    </div>
+                    <div class="card mt-4 ">
+                        <img src="img/slider-2.jpeg" alt="" class="card-img-top img-thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Post Title</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti explicabo asperiores quae provident veritatis molestias laborum incidunt nemo laboriosam numquam.
+                            </p>
+                            <button class="btn btn-primary">Read More</button>
+                    
+                        </div>
+                        <div class="card-footer text-muted">
+                            Posted on January 1, 2019
+                        </div>
+                
+                    </div>
+                    <div class="card mt-4">
+                        <img src="img/slider-3.jpeg" alt="" class="card-img-top img-thumbnail">
+                        <div class="card-body">
+                            <h5 class="card-title">Post Title</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti explicabo asperiores quae provident veritatis molestias laborum incidunt nemo laboriosam numquam.
+                            </p>
+                            <button class="btn btn-primary">Read More</button>
+                    
+                        </div>
+                        <div class="card-footer text-muted">
+                            Posted on January 1, 2019
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h5>Search</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input type="text" class="form-control">
+                                <button class="btn btn-dark oppacity">Go!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <h5>Categories</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="list-group list-group-flush">
+                                        <a href="" class="list-group-item">Web Desing</a>
+                                        <a href="" class="list-group-item">HTML</a>
+                                        <a href="" class="list-group-item">Angular</a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="list-group list-group-flush">
+                                        <a href="" class="list-group-item">Java Script</a>
+                                        <a href="" class="list-group-item">Css</a>
+                                        <a href="" class="list-group-item">React</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card">
+                        <div class="card-header"> 
+                            <h5>Widget</h5>
+                        </div>
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus libero necessitatibus odit ipsum vitae consequatur.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        
+        
+    </section>
+    <footer class="bg-dark">
+        <p class="text-center text-white mb-0 py-5">Copyright © Your Website 2021</p>
+    </footer>
+
+
+
+    <script src="bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/18286947e7.js" crossorigin="anonymous"></script>
+</body>
+</html>
