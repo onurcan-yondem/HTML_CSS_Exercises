@@ -1,0 +1,126 @@
+a{
+    text-decoration: none;
+}
+.logo-font{
+    font-family:Pacifico !important;
+    color: #eeeeee !important;
+    font-size: 2rem;
+}
+
+/*Navbar*/
+.nav-item .nav-link{
+    color: #eeeeee !important;
+}
+.nav-item .nav-link:hover{
+    color:#8a8787 !important;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.363);
+    
+}
+
+/*Header*/
+header{
+    background-image: url(img/hitman.jpg);
+    height: 660px;
+    background-size: cover;
+
+}
+
+.headercard{
+    background-color: transparent;
+    border: 0px;
+    margin-top: 15rem !important;
+
+}
+.headercard h2{
+    color:red;
+    
+}
+
+
+/*product*/
+
+.product{
+    background-color: #141414 !important;
+    height: 300px;
+}
+
+/*Card*/
+.card-h5-color{
+    color:white !important;
+}
+.card-price-color{
+    color:white;
+}
+.prdcard{
+    transform: translateY(-2rem);
+    background-color: #292828 !important;
+    height:0px;
+    border: none;
+    transition: padding 0.3s, height 0.8s ease;
+}
+.imgBox{
+    transition: transform 0.3s ease;
+    z-index: 2;
+    
+}
+.imgBox img{
+    height: 13rem !important;
+}
+.cardbody{
+    transform: translateY(-10rem);
+    transition: transform 1.5s ease;
+    z-index: 1;
+}
+.best-sell-header{
+    margin-top: 7rem !important;
+    margin-left:0.2rem;
+
+}
+.prdcard:hover .imgBox {
+    transform: translateY(-3rem);
+}
+.prdcard:hover .cardbody {
+    transform: translateY(-3rem);
+}
+.prdcard:hover {
+    height:20rem !important;
+    padding:0px 1rem !important;
+}
+.pt-6{
+    padding:6rem;
+    height:500px;
+}
+.moba-height{
+    height: 400px;
+}
+
+/*footer*/
+.icon{
+    font-size: 2rem !important;
+    color:white;
+    transition: color 0.8s ease;
+    
+}
+.fb-ic:hover .fa-facebook-square{
+    color:rgb(30, 30, 236);
+}
+
+.tw-ic:hover .fa-twitter-square {
+    color:rgb(30, 154, 236);
+}
+
+.gplus-ic:hover .fa-google-plus{
+    color:rgb(216, 13, 13);
+}
+
+.ins-ic:hover .fa-instagram{
+    color:rgb(196, 7, 86);
+}
+.footer-color{
+    background-color:#141414 !important ;
+}
+.footer-link-color{
+    color:#8a8787;
+}
