@@ -1,0 +1,43 @@
+.container{
+    margin: 0 4.5rem;
+}
+
+.search-box{
+    background-color: rgba(128, 128, 128, 0.15);
+}
+
+.search-box input{
+    width: 340px;
+}
+
+.box{
+    margin-top: 3px;
+    display: flex;
+    height: 75px;
+}
+
+.box1{
+    background-color: #7EE5DA;
+    width: 39%;
+    margin-right: 2px;
+    padding-top: 10px;
+}
+
+.box2{
+    background-color: #70CCC2;
+    width: 20%;
+    margin-right: 2px;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.box3{
+    background-color: #62B3AA;
+    width: 45%;
+    font-size: 13px;
+}
+
+.mark{
+    font-size: 13px;
+}
+
